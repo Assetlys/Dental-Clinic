@@ -1,0 +1,21 @@
+{
+  "name": "brightbite-dental-studio",
+  "version": "1.0.0",
+  "description": "Full-stack dental clinic booking system",
+  "type": "commonjs",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "express-session": "^1.18.0",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.5.0"
+  }
+}
